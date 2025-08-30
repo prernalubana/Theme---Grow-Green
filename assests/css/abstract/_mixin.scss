@@ -1,0 +1,19 @@
+@mixin background_properties {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+@mixin link_formatting {
+    color: $white;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+
+@mixin btn_formatting {
+    background-color: $pink;
+    border: none;
+}

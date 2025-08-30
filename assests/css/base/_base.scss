@@ -1,0 +1,70 @@
+
+//background image
+.home_bg {
+    background-image: url("../images/bg_home.jpg");
+    @include background_properties;
+    background-position: center;
+}
+
+
+//container background
+.trans_bg {
+    background-color: $transparent;
+}
+
+//navbar
+.logo {
+    img {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+.navbar {
+    background-color: $navbar_bg;
+
+    
+}
+
+.nav-link {
+   @include link_formatting;
+}
+//navbar-end
+
+
+
+//icon styling
+i {
+    color: $white;
+}
+
+//p-tag custom styling
+.p_formatting {
+    color: $white;
+    text-align: justify;
+}
+
+
+//carousel
+.carousel {
+    a {
+        text-decoration: none;
+        @include link_formatting;
+
+    }
+}
+//carousel-ends
+
+//card-styling
+.card {
+    .btn {
+        @include btn_formatting;
+    }
+    &:hover{
+        background-color: $card_bg;
+    }
+}
+
+//button styling
+.contact_btn{
+    @include btn_formatting;
+}

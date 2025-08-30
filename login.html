@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assests/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <title>Grow Green: Login</title>
+
+</head>
+
+<body class="bg_about">
+
+  <!--======NavBar======-->
+
+  <nav class="navbar navbar-expand-lg navbar-light  ">
+    <div class="container-fluid nav">
+      <div class="logo"><img src="./assests/images/plant_logo.png"></div>
+      <a class="navbar-brand mx-3 link-success-text fs-4" href="./index.html">Grow green</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link fs-5 active text-white" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white" href="./about_us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-5 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./plants.html">Plants</a></li>
+              <li><a class="dropdown-item" href="./seeds.html">Seeds</a></li>
+              <li><a class="dropdown-item" href="./soil.html">Soil</a></li>
+              <li><a class="dropdown-item" href="./fertilizers.html">Fertilisers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white" href="./contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <a class="btn btn-outline-light ms-2" href="./login.html" role="button">Login</a>
+          <a class="btn btn-outline-light ms-2" href="./signup.html" role="button">Signup</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--navbar ends-->
+
+  <!--login-->
+  <div class="container trans_bg h-100">
+    <div class="row text-center p-4 ">
+      <h1 class="text-warning ">LOGIN</h1>
+    </div>
+
+    <div class="row justify-content-center mt-4 p-2">
+      <div class="w-50 p-3 border border-light mb-5">
+        <!--Form-->
+        <form action="./index.html">
+          <label for="u_name" class="form-label text-white fs-5">Username</label>
+          <input type="text" class="form-control mb-3" id="u_name" required>
+
+          <label for="password" class="form-label text-white fs-5">Password</label>
+          <input type="password" class="form-control mb-2" id="password" required>
+
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label text-secondary " for="flexCheckDefault">
+            Remember password
+          </label>
+          <div class=" text-center mt-4 w-100">
+            <button class="btn btn-primary w-50" type="submit">Login</button>
+          </div>
+        </form>
+        <p class="text-light mt-3 text-center">Don't have an account? <a href="./signup.html"
+            class="link-light">SignUp</a></p>
+
+      </div>
+    </div>
+
+
+  </div>
+  <!--====Footer====-->
+  <div class="container-fluid bg-dark p-4">
+    <div class="row p-2">
+      <!--intro-->
+      <div class="col-sm">
+        <p class="text-white fs-4"><span class="fa-sharp fa-solid fa-seedling fa-xl"></span><b> Grow Green</b></p>
+        <p class="p_formatting"><b>Grow Green</b> germinated in 2014 from a promise to make ‘green and healthy’ a click
+          away for all Indians. We believe that Green is Good and are here to enable Indians to access plants in the
+          easiest way possible – online! We are here to shape the future of gardening!</p>
+
+      </div>
+      <!--categories-->
+      <div class="col-sm text-start text-sm-center">
+        <p class="text-white fs-4"><b> Categories</b></p>
+        <ul class="text-white list-unstyled">
+          <li><a href="./plants.html" class="text-decoration-none text-white">Plants</a></li>
+          <li><a href="./seeds.html" class="text-decoration-none text-white">Seeds</a></li>
+          <li><a href="./soil.html" class="text-decoration-none text-white">Soil</a></li>
+          <li><a href="./fertilizers.html" class="text-decoration-none text-white">Fertilizers</a></li>
+        </ul>
+      </div>
+      <!--useful links-->
+      <div class="col-sm text-start text-sm-center">
+        <p class="text-white fs-4"><b> Useful Links</b></p>
+        <ul class="text-white list-unstyled">
+          <li><a href="./about_us.html" class="text-decoration-none text-white">About Us</a></li>
+          <li><a href="./contact_us.html" class="text-decoration-none text-white">Contact Us</a></li>
+          <li><a href="./faqs.html" class="text-decoration-none text-white">FAQs</a></li>
+
+        </ul>
+      </div>
+      <!--Locate us-->
+      <div class="col-sm">
+        <p class="text-white fs-4"><b> Locate us</b></p>
+        <p class="text-white"><span class="fa-solid fa-location-dot fa-xl"> </span>&nbsp; 44, Pologround Industrial
+          Area, Indore 452001</p>
+        <p class="text-white"><span class="fa-solid fa-phone fa-xl"> </span>&nbsp; +91 98765-XXXXX</p>
+        <p class="text-white"><span class="fa-solid fa-at fa-xl">&nbsp; </span> <a href="mailto:prernalubana2@gmail.com"
+            class="text-decoration-none text-white">info@growgreen.com</a></p>
+      </div>
+    </div>
+    <hr class="border-light">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="text-light"><small>Copyright © 2023 Grow Green.</small></p>
+      </div>
+
+      <div class="col-sm-6 text-sm-end ">
+        <a href=""><i class="fa-brands fa-instagram fa-xl m-2"></i></a>
+        <a href=""><i class="fa-brands fa-facebook fa-xl m-2"></i></a>
+        <a href=""><i class="fa-brands fa-twitter fa-xl m-2"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin fa-xl m-2"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+</body>

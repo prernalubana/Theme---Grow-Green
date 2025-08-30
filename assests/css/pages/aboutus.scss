@@ -1,0 +1,7 @@
+
+//background image
+.bg_about{
+    background-image: url("../images/bg_about.jpg");
+    @include background_properties;
+    background-position: center;
+}

@@ -1,0 +1,75 @@
+.home_bg {
+  background-image: url("../images/bg_home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.trans_bg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.navbar {
+  background-color: rgb(7, 153, 7);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+i {
+  color: rgb(255, 255, 255);
+}
+
+.p_formatting {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.carousel a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.carousel a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.card .btn {
+  background-color: rgb(228, 78, 78);
+  border: none;
+}
+.card:hover {
+  background-color: rgba(13, 209, 13, 0.767);
+}
+
+.contact_btn {
+  background-color: rgb(228, 78, 78);
+  border: none;
+}
+
+.bg_about {
+  background-image: url("../images/bg_about.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.salespage_bg {
+  background-image: url("../images/bg_plants.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.category_list a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}/*# sourceMappingURL=main.css.map */
